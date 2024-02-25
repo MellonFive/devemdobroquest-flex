@@ -18,12 +18,8 @@ body {
 }
 
 .container .project {
-  margin-top: 4rem;
+  margin-top: 3rem;
   display: flex;
-}
-
-.container .project .background-image {
-  width: 100%;
 }
 
 .container .project .background-image img {
@@ -33,17 +29,20 @@ body {
 .container .project .company {
   padding: 0 1.5rem;
   margin-top: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .container .project .company .title {
   text-transform: capitalize;
   color: var(--white-color-font);
   font-size: 2.2rem;
+  font-family: inherit;
 }
 
 .container .project .company .description {
   margin-top: 1.5rem;
   color: var(--white-color-font);
+  font-family: inherit;
 }
 
 .container .project .company .btn {
@@ -56,9 +55,32 @@ body {
   font-size: 1rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
   transition: .3s all;
+  font-family: inherit;
 }
 
 .container .project .company .btn:hover {
   background-color: var(--button-color);
   color: var(--white-color-font);
 }
+
+.container footer {
+  margin-top: 2rem;
+}
+
+.container footer .social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.container footer .social-media .item a svg {
+  width: 2rem;
+  transition: .5s all;
+}
+
+.container footer .social-media .item a svg:hover {
+  filter: invert(98%) sepia(10%) saturate(195%) hue-rotate(100deg) brightness(117%) contrast(100%);
+  transform: scale(1.5);
+}
+
