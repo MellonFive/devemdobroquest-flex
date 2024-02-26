@@ -74,8 +74,7 @@ body {
 .container footer .social-media {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .container footer .social-media .item a svg {
