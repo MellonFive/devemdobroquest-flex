@@ -1,0 +1,56 @@
+@media (max-width: 425px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .logo {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .container .logo .image-logo {
+    width: 10rem;
+  }
+
+  .container .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 .5rem;
+  }
+
+  .container .project .background-image {
+    width: 100%;
+  }
+
+  .container .project .background-image img {
+    width: 20rem;
+  }
+
+  .container .project .company .title {
+    font-size: 2rem;
+  }
+
+  .container .project .company .description {
+    font-size: .9rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    line-height: 25px;
+  }
+
+  .container .project .company .btn {
+    width: 15rem;
+    padding: .7rem 1.5rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  footer .social-media .item {
+    margin: 1rem 0;
+  }
+}
