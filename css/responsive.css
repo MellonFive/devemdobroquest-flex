@@ -54,3 +54,58 @@
     margin: 1rem 0;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .logo {
+    margin-left: 6rem;
+  }
+
+  .container .logo .image-logo {
+    width: 12rem;
+  }
+
+  .container .project {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem 0;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .container .project .background-image {
+    width: 100%;
+  }
+
+  .container .project .background-image img {
+    width: 35rem;
+    margin-top: 2rem;
+  }
+
+  .container .project .company .title {
+    padding: 0 6rem;
+  }
+
+  .container .project .company .description {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    padding: 0 1.3rem;
+    line-height: 35px;
+  }
+
+  .container .project .company .btn {
+    width: 80%;
+  }
+
+  .container footer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
