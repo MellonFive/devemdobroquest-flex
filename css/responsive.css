@@ -113,3 +113,14 @@
     margin: 1rem 0;
   }
 }
+
+@media (max-width: 992px) /* Não consegui fazer sumir a parte da img de fundo que está sendo cortada depois do footer. */{
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    display: flex;
+    padding: 0 2rem;
+  }
+}
