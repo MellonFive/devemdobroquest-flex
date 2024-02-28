@@ -50,6 +50,7 @@ body {
 }
 
 .container .project .company .btn {
+  display: inline-block;
   color: var(--font-color);
   margin-top: 1.5rem;
   padding: 1rem 4rem;
