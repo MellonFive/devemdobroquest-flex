@@ -36,4 +36,4 @@ Projeto da dev em dobro. Praticar o que aprendi.
 Confesso que fui mais rápido em fazer esse projeto do que fazer ele com grid.
 A responsividade não está 100%.
 
-Esse projeto os professores e cordenadores da dev em dobro vão avaliar e mostrar os erros para não serem cometidos.
+Esse projeto serve para testar os conhecimentos básicos. Os professores e cordenadores da dev em dobro vão avaliar e mostrar os erros para não serem cometidos.
